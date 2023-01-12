@@ -73,7 +73,7 @@ const calcPrintBalance = function (movements) {
 };
 calcPrintBalance(account4.movements);
 
-//Maximum value of movement
+//Max value of movement
 
 const findMaxMovement = function (movements) {
   const max = movements.reduce(function (acc, mov) {
