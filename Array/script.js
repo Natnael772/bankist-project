@@ -85,42 +85,4 @@ const findMaxMovement = function (movements) {
 findMaxMovement(account4.movements);
 
 
-// const displayMovements = function (movements, index) {
-//   movements = account1.movements;
-//   console.log(account1.movements);
-//   index = account1.movements.length;
 
-//   if (account1.movements) {
-//     let money = document.createElement("div");
-//     money.innerHTML = `<div class="movements__row">
-// <div class="movements__type movements__type--deposit">2 deposit</div>
-// <div class="movements__date">3 days ago</div>
-// <div class="movements__value">${movements}</div>
-// </div>`;
-
-//     document.querySelector(".movements").appendChild(money);
-//     console.log(money);
-//   }
-// };
-// displayMovements();
-// // const accounts = { account1, account2, account3, account4 };
-// // for (let i = 0; i < accounts.length; i++) {
-// //   console.log(accounts[i]);
-// // }
-
-// const movVal = document.querySelector(".movements__value");
-
-// const receiver = document.querySelector(".form__input--to");
-// const amount = document.querySelector(".form__input--amount");
-// const btnTransfer = document.querySelector(".form__btn--transfer");
-// btnTransfer.addEventListener("click", function () {
-//   const money = amount.value;
-//   movVal.textContent = money;
-// });
-
-// const btnTrans = document.querySelector(".form__btn--transfer");
-// btnTrans.addEventListener("click", function () {
-//   const amount = document.querySelector(".form__input--amount").value;
-//   let movv = document.querySelector(".movements__value");
-//   movv.textContent = amount;
-// });
