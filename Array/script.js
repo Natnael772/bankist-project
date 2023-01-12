@@ -3,7 +3,7 @@ const containerMovements = document.querySelector(".movements");
 const labelBalance = document.querySelector(".balance__value");
 
 //Data
-//all accounts are objects
+
 const account1 = {
   owner: "Natnael Deyas",
   movements: [1000, 2000, -600, 500, -200, 400, -100],
