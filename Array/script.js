@@ -49,7 +49,7 @@ const displayMovements = function (movements) {
 
 displayMovements(account1.movements);
 
-//computing usernames
+//Computing usernames
 const user = "Natnael Deyas Tulu";
 
 const createUsername = function (user) {
@@ -64,7 +64,7 @@ createUsername("Natnael Deyas Tulu");
 createUsername(account1.owner);
 
 let sum = 0;
-//displaying the total balance
+//displaying  total balance
 const calcPrintBalance = function (movements) {
   const balance = movements.reduce(function (acc, mov) {
     return acc + mov;
