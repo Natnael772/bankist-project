@@ -85,21 +85,6 @@ const findMaxMovement = function (movements) {
 findMaxMovement(account4.movements);
 
 
-//Calculate total balance
-// const calcBalance = function (movements) {
-//   for (let i = 0; i < movements.length; i++) {
-//     sum = sum + movements[i];
-//   }
-//   console.log(sum);
-//   labelBalance.textContent = `${sum}€`;
-// };
-// calcBalance(account4.movements);
-// for (let i = 0; i < account1.movements.length; i++) {
-//   sum = sum + account1.movements[i];
-// }
-// console.log(sum);
-// totalBalance.textContent = `${sum}€`;
-
 //another way to generate username
 // const userN = accountHolder.toLowerCase().split(" ");
 // const corr = userN[0].slice(0, 2).concat(userN[1]);
