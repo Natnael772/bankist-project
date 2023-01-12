@@ -84,16 +84,6 @@ const findMaxMovement = function (movements) {
 };
 findMaxMovement(account4.movements);
 
-// let max = 0;
-// const findMaxMovement = function (movements) {
-//   for (let i = 0; i < movements.length; i++) {
-//     if (movements[i] > max) {
-//       max = movements[i];
-//     }
-//   }
-//   console.log(`Maximum : ${max}`);
-// };
-// findMaxMovement(account4.movements);
 
 //Calculate total balance
 // const calcBalance = function (movements) {
