@@ -85,22 +85,6 @@ const findMaxMovement = function (movements) {
 findMaxMovement(account4.movements);
 
 
-//appending
-// let newun = "";
-// for (i = 0; i < username.length; i++) {
-//   let un = username[i].slice(0, 1);
-//   newun = newun.concat(un);
-// }
-// console.log(newun);
-
-// console.log(x);
-// const numberList = [100, 200, 300, 400];
-// for (let i = 0; i < numberList.length; i++) {
-//   console.log(numberList[i]);
-// }
-// numberList.forEach(function (number, index) {
-//   console.log(number, index);
-// });
 // const displayMovements = function (movements, index) {
 //   movements = account1.movements;
 //   console.log(account1.movements);
