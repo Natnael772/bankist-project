@@ -85,12 +85,6 @@ const findMaxMovement = function (movements) {
 findMaxMovement(account4.movements);
 
 
-//another way to generate username
-// const userN = accountHolder.toLowerCase().split(" ");
-// const corr = userN[0].slice(0, 2).concat(userN[1]);
-// console.log(corr);
-// username.forEach(function (name) {});
-
 //appending
 // let newun = "";
 // for (i = 0; i < username.length; i++) {
